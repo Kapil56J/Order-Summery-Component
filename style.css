@@ -1,3 +1,4 @@
+/* For font selection */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 *{
@@ -11,13 +12,14 @@ body{
     sans-serif;
     min-height: 100vh;
     background-image: url(pattern-background-desktop.svg);
-    background-repeat: no-repeat;        
-    background-size: contain;
+    background-repeat: no-repeat;        /* for no repeatation Backgound img */
+    background-size: contain;              /* will automatically adust backgound with img */
     background-color: hsl(225, 100%, 94%);
     position: relative;
     font-size: 15px;
 }
 
+/* to place template middle of the sceen */
 .container{
     position:absolute;
     left: 50%;
@@ -29,11 +31,13 @@ body{
     overflow: hidden;   
 }
 
+/* to take text in center and padding between logo and text */
 .text-content{
     text-align: center;
     padding: 7%;
 }
 
+/* for title of order summery */
 .title{
     color: hsl(223, 47%, 25%);
     font-weight: 900;
@@ -103,6 +107,7 @@ a.cancel-btn{
     font-weight: 900;
 }
 
+/* for various preview  */
 @media only screen and (max-width: 425px){
     body{
         background-image: url(pattern-background-mobile.svg);
