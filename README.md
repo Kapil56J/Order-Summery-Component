@@ -8,15 +8,18 @@ As most of my work, this solution is being coonstantly updated as i learn new th
 
 ## Table of Contents
 * Overview
-    * The Challange
-    * Screenshot
-    * Links
+    * [The Challange](#overview)
+    * [Screenshot](#screenshots)
+    * [Links](https://github.com/Kapil56J)
 
 * My Process
-    * Built with
-    * What i learned
+    * [Build with](#roadmap)
+    * [What i learned](#what-i-learned)
     
 ## Overview
+
+#The Challange
+
 Users Should be able to:
 
 *See Colors Combinations.
