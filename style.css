@@ -1,4 +1,3 @@
-/* For font selection */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 *{
@@ -10,10 +9,10 @@
 body{
     font-family: 'Red Hat Display',
     sans-serif;
-    min-height: 100vh;
+    min-height: 100vh; 
     background-image: url(pattern-background-desktop.svg);
-    background-repeat: no-repeat;        /* for no repeatation Backgound img */
-    background-size: contain;              /* will automatically adust backgound with img */
+    background-repeat: no-repeat;     /* for no repeatation Backgound img */
+    background-size: contain;  /* will automatically adust backgound with img */
     background-color: hsl(225, 100%, 94%);
     position: relative;
     font-size: 15px;
@@ -24,8 +23,8 @@ body{
     position:absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);  /*To keep center */
-    max-width: 450px;
+    transform: translate(-50%, -50%); /* To keep center  */
+    max-width: 850px; 
     background-color: white;
     border-radius: 20px;
     overflow: hidden;   
@@ -50,11 +49,12 @@ body{
     margin-bottom: 25px;
 }
 
+/* Keeping this in one box to align center */
 .box{
     /* background-color: hsl(225, 100%, 90%); */
     background: #f1f2fb;
     border-radius: 15px;
-    display: flex;
+    display: flex; 
     padding: 25px;
     align-items: center;
     justify-content: space-between;
@@ -84,13 +84,15 @@ body{
 .box a{
     font-weight: 900;
     color: hsl(223, 47%, 25%);
+    transition: color .3s ease;
 }
 
-.box a{
-    /* text-decoration: none; */
+.box a:hover{
+    text-decoration: none;
     color: hsl(245, 75%, 50%);
 }
 
+/* Procees btn section */
 a.proceed-btn{
     display: block;
     text-decoration: none;
@@ -101,10 +103,20 @@ a.proceed-btn{
     margin: 30px 0;
 }
 
+a.proceed-btn:hover{
+    background-color: hsl(224, 25%, 55%);
+    transition: background-color .3s ease;
+}
+
+/* Cancel btn section */
 a.cancel-btn{
     color: hsl(224, 25%, 55%);
     text-decoration: none;
     font-weight: 900;
+}
+
+a.cancel-btn:hover{
+    color: hsl(223, 47%, 25%);
 }
 
 /* for various preview  */
