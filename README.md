@@ -1,8 +1,8 @@
 
 # Order Summery Component
 
-This is a Project soltion to the Order Summery Compoment.
-As most of my work, this solution is being coonstantly updated as i learn new things and find better soltuions for my problems, so please take this into consideration. :)
+This is a Project solution to the Order Summery Compoment.
+As most of my work, this solution is being constantly updated as i learn new things and find better soltuions for my problems, so please take this into consideration. :)
 
 
 
