@@ -39,7 +39,7 @@ Users Should be able to:
 
 ## Links
 
-Netifly Host Link
+[Host-Link](https://lighthearted-torte-f32922.netlify.app/)
 
 
 ## Roadmap
